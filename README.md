@@ -16,13 +16,17 @@ Version history
 
 
 ## Wiring diagram
+
 generic wiring is like this:
-![wiring diagram](/docs/wiring_diagram.png)
+
+![wiring diagram](/docs/basic_wiring.png)
 
 the red bubbles connecting to the USB port:
+
 ![wiring diagram](/docs/usb_connector.png)
 
 and the blue labels connecting to a 5 port DIN (keyboard) socket:
+
 ![wiring diagram](/docs/din_connector.png)
 
 
