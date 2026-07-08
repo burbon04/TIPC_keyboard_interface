@@ -71,7 +71,7 @@ use TIPC-KBD.EXE to set the RTC:
     ........................................................  
     done
 
-and, most importantly, set the TIPC's system time, e.g. withing autoexec.bat:
+and, most importantly, set the TIPC's system time, e.g. within autoexec.bat:
 
     A> tipc-kbd getrtc
     
