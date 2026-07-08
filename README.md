@@ -25,6 +25,7 @@ No external power supply needed, the 12v provided at the TIPC's DIN port is used
 - yellow and green LED
 - 10v 47µF capacitor
 - 7805 voltage regulator
+- 2x 680 ohm resistor
 - USB 1.1/2.0 port
 - 5-port DIN socket
 
