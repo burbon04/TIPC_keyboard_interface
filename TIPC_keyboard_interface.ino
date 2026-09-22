@@ -14,6 +14,8 @@
 //                             bugfix backslash key
 //                             improved compatibility with some PS2 keyboard models
 //                             improved mode byte consistency
+// Sep 2026            - v2.01 Maximilian Decker burbob04 <at> gmx.de
+//                             bugfix tilde (~) on US keyboard
 //
 //
 // Limitations:
@@ -31,7 +33,7 @@
 ////////////////
 const uint8_t myversion1 = 2;  // version 2.00
 const uint8_t myversion2 = 0;  
-const uint8_t myversion3 = 0; 
+const uint8_t myversion3 = 1; 
 
 ///////////////////
 // PIN assignments
@@ -112,7 +114,7 @@ const byte scancodes[256] = {
 // 0-9
 0,5,0,1,103,101,102,8,0,6,
 // 10-19
-4,2,104,49,0,0,0,0,0,0,
+4,2,104,49,22,0,0,0,0,0,
 // 20-29
 0,50,9,0,0,0,82,67,66,51,
 // 30-39
